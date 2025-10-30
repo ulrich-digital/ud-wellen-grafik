@@ -1,0 +1,50 @@
+{
+    "apiVersion": 3,
+    "name": "ud/wellen-grafik",
+    "title": "Wellen-Grafik",
+    "description": "SVG-Welle als Trenner mit Hintergrundfarbe.",
+    "category": "design",
+    "icon": "wave",
+    "textdomain": "ud-wellen-grafik",
+    "keywords": [
+        "trenner",
+        "divider",
+        "welle",
+        "svg"
+    ],
+    "supports": {
+        "align": [
+            "full"
+        ],
+        "anchor": true,
+        "html": false,
+        "multiple": true,
+        "mode": false,
+        "typography": {
+            "fontSize": false,
+            "lineHeight": false
+        }
+    },
+    "editorScript": "file:./build/editor-script.js",
+    "style": "file:./build/frontend-style.css",
+    "editorStyle": "file:./build/editor-style.css",
+    "attributes": {
+        "waveColor": {
+            "type": "string",
+            "default": ""
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#00000000"
+        },
+        "flipHorizontal": {
+            "type": "boolean",
+            "default": false
+        },
+        "flipVertical": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "render": "file:./includes/render.php"
+}

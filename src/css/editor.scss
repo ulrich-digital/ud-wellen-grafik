@@ -1,0 +1,38 @@
+.is-style-teaser-cover .wellen_container {
+	overflow: visible;
+	width: calc(100% + 20px);
+	left: -10px;
+	z-index: 1000;
+	position: relative;
+	padding: 0;
+	margin-bottom: -5px;
+	bottom: -7px;
+	svg.nach_teaser_cover {
+		transform: scaleX(-1) translateY(5px);
+	}
+}
+
+.wp-block-ud-wellen-grafik {
+	position: relative;
+}
+
+.components-button.flip {
+	width: 100%;
+	border: 1px solid #ddd;
+	+ .flip {
+		margin-top: 12px;
+	}
+	&.is-pressed,
+	&.is-pressed:hover {
+		background-color: var(--wp-admin-theme-color);
+		background-color: white;
+		color: var(--wp-admin-theme-color);
+		border: 1px solid;
+	}
+
+	&.is-pressed:focus:not(:disabled),
+	&:focus:not(:disabled),
+	:focus {
+		box-shadow: none;
+	}
+}
