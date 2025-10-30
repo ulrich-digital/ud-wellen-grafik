@@ -25,7 +25,7 @@ Die Wellenform kann in Farbe, Ausrichtung und Position angepasst werden und ist 
 ## Screenshots
 
 ### Editor-Ansicht
-![Wellen Grafik – Editor-Ansicht](./assets/editor-ansicht.jpg)
+![Wellen Grafik – Editor-Ansicht](./assets/editor-view.png)
 *Abbildung: Wellen-Block im Editor mit Farbauswahl und Ausrichtung.*
 
 ### Frontend-Ansicht
