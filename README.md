@@ -7,18 +7,9 @@ Die Wellenform kann in Farbe, Ausrichtung und Position angepasst werden und ist 
 
 ## Funktionen
 
-- **Anpassbare Wellenform**
-  - Auswahl der Wellenfarbe über Farbfeld im Editor
-  - Steuerung von Position (oben oder unten) und Ausrichtung (normal oder gespiegelt)
-  - Optional transparente oder flächige Darstellung
+- Auswahl der Wellenfarbe über Farbfeld im Editor
+- Steuerung von Position (oben oder unten) und Ausrichtung (normal oder gespiegelt)
 
-- **Einfache Integration**
-  - Fügt sich als dekoratives Trenner-Element zwischen Blöcken ein
-  - Kompatibel mit allen Standard-WordPress-Blöcken und Full Site Editing (FSE)
-
-- **Editor-Integration**
-  - Echtzeit-Vorschau der gewählten Farbe und Ausrichtung
-  - Keine statischen Werte: Änderungen werden direkt im Editor sichtbar
 
 
 
